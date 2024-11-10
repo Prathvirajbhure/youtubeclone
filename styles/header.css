@@ -1,0 +1,164 @@
+.search-bar {
+    font-size:15px;
+    flex:1;
+    height:35px;
+    font-family: Roboto ,Arial;
+    padding-left: 12px; 
+    border-width: 1px;
+     border-style: solid; 
+     border-color:gray;
+     width: 50px;
+    
+
+
+
+}
+.header {
+    height :60px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position:fixed;
+    left:0;
+    right:0;
+    top:0;
+    background-color: white;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(208, 207, 207);
+    z-index: 1;
+
+ 
+}
+.left-section {
+   
+  
+    display:flex;
+    align-items: center;
+
+
+} 
+.right-section {
+    justify-content: space-between;
+    display:flex;
+    align-items: center;
+    width:150px;
+    margin-right: 6px;
+    flex-shrink: 0;
+
+}
+.middle-section {
+    
+    flex: 1;
+     margin-left: 70px;
+      margin-right: 35px;
+       max-width: 600px; 
+       display: flex;
+    align-items: center;
+    border-radius: 2px;
+box-shadow: inset 1px 2px 3px
+Orgba(o, 0, 0, 0.05);
+
+} 
+.search-bar::placeholder {
+    font-family: Roboto, Arial; 
+    font-size: 16px;
+    } 
+.search-button {
+    height: 39px;
+    width:60px;
+    border-width: 1px;
+    border-color: Orgb (192, 192, 192);
+    border-style: solid;
+    background-color:rgb(236, 236, 236);
+    margin-left: -1px;
+    margin-right: 15px;
+    cursor:pointer;
+    position:relative;
+}
+.search-icon {
+    height:25px;
+    margin:4px;
+
+}
+
+.voice-search-button
+{
+    height:40px;
+    width:40px;
+    border-radius: 20px;
+    border:none;
+    background-color: rgb(247, 247, 247);
+    margin-bottom: 3px;
+    cursor:pointer;
+   
+}
+.youtube-logo
+ {
+    height: 25px;
+
+}
+.hamburgermenu {
+    height:30px;
+    margin-left:20px;
+    margin-right: 20px;
+    cursor:pointer;
+}
+
+.upload-icon,
+.notify,
+.mydp {
+    height: 30px;
+    width:30px;
+    cursor:pointer;
+} 
+.mydp {
+   
+    border-radius: 15px;
+    cursor:pointer;
+}
+.notify-container {
+    position:relative;
+
+}
+.notify-count {
+    position: absolute;
+    right:-2 px;
+    left:16px;
+    top:-3px;
+    background-color: red;
+    color:white;
+    border-radius: 4px;
+   font-size:14px;
+   font-family: Roboto,Arial;
+   padding-left: 4px;
+   padding-right: 4px;
+   border-radius: 10px;
+   padding-top: 1px;
+   padding-bottom: 1px;
+
+
+}
+.search-button .tooltip
+  {
+    position: absolute;
+    background-color:gray;
+    color:white;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 2px;
+    font-size: 14px;
+    bottom:-37px;
+    opacity:0;
+    transition:opacity 0.15;
+    pointer-events: none;
+
+
+}
+.search-button:hover .tooltip {
+    opacity:1
+}
+
+
