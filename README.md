@@ -74,7 +74,7 @@ No build tools or compilers required. Simply open the `index.html` file in any m
 
 ##  Disclaimer
 
-This project is built strictly for **educational purposes to demonstrate frontend design skills. All design rights, logos, and trademarks belong to YouTube/Google.
+This project is built strictly for educational purposes to demonstrate frontend design skills. All design rights, logos, and trademarks belong to YouTube/Google.
 
 ---
 
